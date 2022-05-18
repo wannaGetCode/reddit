@@ -1,0 +1,10 @@
+{
+  "type": "postgres",
+  "host": "localhost",
+  "port": 5432,
+  "username": "wreommemwwevlv",
+  "password": "8db85bb9d16aea2cc776f93628f62a5d65ff62a4710713d600dbfc0ec665f08e",
+  "database": "d3jh7krlrroma",
+  "entities": ["dist/entities/*.js"],
+  "migrations": ["dist/migrations/*.js"]
+}
