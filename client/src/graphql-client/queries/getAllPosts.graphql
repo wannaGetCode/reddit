@@ -1,0 +1,10 @@
+query GetAllPosts($limit: Int!, $cursor: String) {
+  getAllPosts(limit: $limit, cursor: $cursor) {
+    totalCount
+    cursor
+    hasMore
+    paginatedPosts {
+      ...postWithUserInfo
+    }
+  }
+}
